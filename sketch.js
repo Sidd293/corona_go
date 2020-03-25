@@ -145,7 +145,7 @@ text("score " + sco, width-150, 30)
     if (si != 0)
       background(255,255,255,255 - si)
     
-    i -= 5;
+    si -= 5;
    
     for (var l = 0; l < lyf; l++)
       image(hrt, l * 50, 40, 20, 20)
