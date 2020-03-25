@@ -209,7 +209,7 @@ text("score " + sco, width-150, 30)
       bbly = 0
       lyf--
     } else {
-      bbly = bbly + 1 + .01 * sc
+      bbly = bbly + 1 + .01 * scr
     }
 
     if (i != 0)
