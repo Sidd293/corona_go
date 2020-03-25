@@ -122,7 +122,7 @@ po =5
 
   if (g == 1) //g1
   {
- if(mouseX>0&&mouseX<40 && mouseY>0 && mouseY<40)
+ if(mouseX>0&&mouseX<80 && mouseY>0 && mouseY<80)
  g=-1
 
     scale(2)
