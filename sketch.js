@@ -172,7 +172,7 @@ text("score " + sco, width-150, 30)
 
       r = bblx
       t = bbly
-      image(bs,r,t)
+      image(bs,r-30,t-30,60,60)
       bbly = 0
       bblx = random(0, 300)
 
