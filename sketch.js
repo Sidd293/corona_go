@@ -140,7 +140,7 @@ text("score " + sco, width-150, 30)
     scale(2)
     background(255);
     
-    image(bs,stx-30,sty-30,60,60)
+    image(bs,stx,sty,60,60)
     //backgroundbackgr
    
     for (var l = 0; l < lyf; l++)
