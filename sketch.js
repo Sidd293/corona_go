@@ -15,7 +15,7 @@ var sco=0
 
 var f
 var fac = 1
-var sc = 200
+var sc = 0
 var szx = 400
 var shy = 200
 var shx = 800
@@ -220,7 +220,7 @@ if(mouseX>0&&mouseX<40 && mouseY>0 && mouseY<40)
        sco++
   sc+=.5
 text("instructions",width-100,10)
-if(sco%600==0)
+if(sco%600==0 || sco==100)
   snd.play()
   
   if(mouseX>width-100&&mouseX<width&&mouseY<20&&mouseY>0)
