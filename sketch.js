@@ -143,7 +143,7 @@ text("score " + sco, width-150, 30)
     
     image(bs,stx,sty,60,60)
     if (si != 0)
-      background(255,255,255,si)
+      background(255,255,255,255-si)
     
     si -= 5;
    
