@@ -151,7 +151,7 @@ text("score " + sco, width-150, 30)
       image(hrt, l * 50, 40, 20, 20)
     text("score is - " + scr, 150, 30)
 
-    var tht = map(mouseY, 0, 360, 0, 450)
+    var tht = map(mouseX, 0, 360, 0, 450)
     push()
 
     translate(xp + 200, yp + 400)
