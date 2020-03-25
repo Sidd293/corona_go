@@ -28,6 +28,8 @@ var py = []
 var sx = []
 var px = []
 var g = -1
+var r= -200
+var t=-200
 
 function preload() {
   lh = loadImage('Lh.png')
