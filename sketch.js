@@ -61,7 +61,7 @@ snd.play()
 }
 
 function mouseReleased() {
-  if (mouseX > 0 && mouseX < 80)
+  if (mouseX > 0 && mouseX < 100)
     po = -1
   else if (mouseX > width / 2 && mouseX < width / 2 + 100)
     po = 1
@@ -85,7 +85,7 @@ function draw() {
    image(bg,0,0,width,height)
   
   stroke(7)
-  if (mouseX > 0 && mouseX < 20)
+  if (mouseX > 0 && mouseX < 100)
   {
  
     fill(255, 0, 0,40)
@@ -210,7 +210,7 @@ if(mouseX>0&&mouseX<40 && mouseY>0 && mouseY<40)
    //snd.loop();
   background(255);
   // image(bg,0,0,width,height)
-  text('score is-'+sco,0,30)
+  text('score is-'+sco,0,100)
        sco++
   sc+=.5
 text("instructions",width-100,10)
