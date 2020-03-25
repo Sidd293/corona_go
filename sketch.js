@@ -105,12 +105,13 @@ function draw() {
   rect(width / 2 * (mouseX / (width / 2)), 0, width / 2, height)
 
   if (g == -1) {
-    if (po == 1) {
+    if (po == -1) {
 snd.stop()
 lyf = 5
       g = 1
 sc = 0
-    } else if (po == -1) {
+    } else if (po == 1) {
+
       g = 2
    snd.stop()
       lyf = width
@@ -119,7 +120,6 @@ po =5
 
       fac = 1
       sco = 0
-
     }
  text("score " + sc, 150, 30)
 text("score " + sco, width-150, 30)
