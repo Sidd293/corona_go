@@ -8,6 +8,7 @@ var tht = 0
 var bblx = 200
 var bbly = 200
 var sc = 0
+var scr=0
 var cmb = 1
 var i = 255
 var lyf = 5
@@ -121,7 +122,7 @@ po =5
       fac = 1
       sco = 0
     }
- text("score " + sc, 150, 30)
+ text("score " + scr, 150, 30)
 text("score " + sco, width-150, 30)
   
   }
@@ -136,7 +137,7 @@ text("score " + sco, width-150, 30)
    
     for (var l = 0; l < lyf; l++)
       image(hrt, l * 50, 40, 20, 20)
-    text("score is - " + sc, 150, 30)
+    text("score is - " + scr, 150, 30)
 
     var tht = map(mouseY, 0, 360, 0, 450)
     push()
@@ -182,7 +183,7 @@ text("score " + sco, width-150, 30)
       if (cmb > 3)
         i = 255
       //h++    
-      sc = sc + cmb
+      scr = scr + cmb
     }
 
     if (bbly > 400) {
