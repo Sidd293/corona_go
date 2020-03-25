@@ -47,7 +47,7 @@ function setup() {
   hrt = loadImage('hrtb.png')
   gc = loadSound('goco.mp3')
   cg = loadSound('cogo.mp3')
-
+snd.play()
 
   for (var i = 0; i < 15; i++) {
     sx[i] = random(width, width + 700)
@@ -78,7 +78,7 @@ sp=40
 
 
 function draw() {
-  snd.play()
+ 
   background(255);
    image(bg,0,0,width,height)
   
