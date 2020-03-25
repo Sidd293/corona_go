@@ -30,6 +30,8 @@ var px = []
 var g = -1
 var r= -200
 var t=-200
+var stx=-100
+var sty=-100
 
 function preload() {
   lh = loadImage('Lh.png')
@@ -138,7 +140,7 @@ text("score " + sco, width-150, 30)
     scale(2)
     background(255);
     
-    image(bs,r-30,t-30,60,60)
+    image(bs,stx-30,sty-30,60,60)
     //backgroundbackgr
    
     for (var l = 0; l < lyf; l++)
@@ -167,6 +169,11 @@ text("score " + sco, width-150, 30)
     }
 
     if ((yp + 400 - bbly - 30) * (yp + 400 - bbly - 30) + (xp + 200 - bblx - 30) * (xp + 200 - bblx - 30) < 30 * 30) {
+ 
+     stx= bblx
+      sty=bbly
+      
+      
       if (s < 0)
         cg.play()
       else
