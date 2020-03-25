@@ -37,6 +37,7 @@ function preload() {
   ins = loadImage('INS2.png')
   bg = loadImage('bggame.png')
   snd =loadSound('coronaguitar.mp3')
+
 }
 
 
@@ -59,7 +60,7 @@ snd.play()
 }
 
 function mouseReleased() {
-  if (mouseX > 0 && mouseX < 20)
+  if (mouseX > 0 && mouseX < 80)
     po = -1
   else if (mouseX > width / 2 && mouseX < width / 2 + 100)
     po = 1
@@ -71,10 +72,11 @@ sp=40
 
 
 
-//function mouseReleased() {
-
-//  sp = 30
-//}
+function mousePressed() {
+ if(mouseX>0&&mouseX<40 && mouseY>0 && mouseY<40)
+ g=-1
+ 
+}
 
 
 function draw() {
