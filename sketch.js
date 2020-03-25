@@ -37,6 +37,7 @@ function preload() {
   ins = loadImage('INS2.png')
   bg = loadImage('bggame.png')
   snd =loadSound('coronaguitar.mp3')
+  hm =loadImage('Happy-home-clipart-free-images.png')
 
 }
 
@@ -291,5 +292,5 @@ else
 console.log(sc) 
 
   } //G2//
-
+image(hm,0,0,40,40)
 }
