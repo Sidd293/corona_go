@@ -110,7 +110,7 @@ function draw() {
 snd.stop()
 lyf = 5
       g = 1
-sc = 0
+scr = 0
     } else if (po == 1) {
 
       g = 2
