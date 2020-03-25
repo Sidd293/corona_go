@@ -82,6 +82,8 @@ function mousePressed() {
 function draw() {
  
   background(255);
+text("score " + sc, 150, 30)
+text("score " + sco, width-150, 30)
    image(bg,0,0,width,height)
   
   stroke(7)
