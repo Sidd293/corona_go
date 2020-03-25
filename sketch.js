@@ -39,6 +39,7 @@ function preload() {
   bg = loadImage('bggame.png')
   snd =loadSound('coronaguitar.mp3')
   hm =loadImage('Happy-home-clipart-free-images.png')
+  bs=loadImage('bloodstain.png')
 
 }
 
@@ -171,6 +172,7 @@ text("score " + sco, width-150, 30)
 
       r = bblx
       t = bbly
+      image(bs,r,t)
       bbly = 0
       bblx = random(0, 300)
 
