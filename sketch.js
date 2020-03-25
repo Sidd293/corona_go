@@ -32,6 +32,7 @@ var r= -200
 var t=-200
 var stx=-100
 var sty=-100
+var si=255
 
 function preload() {
   lh = loadImage('Lh.png')
@@ -141,7 +142,10 @@ text("score " + sco, width-150, 30)
     background(255);
     
     image(bs,stx,sty,60,60)
-    //backgroundbackgr
+    if (si != 0)
+      background(255,255,255,255 - si)
+    
+    i -= 5;
    
     for (var l = 0; l < lyf; l++)
       image(hrt, l * 50, 40, 20, 20)
