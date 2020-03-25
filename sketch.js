@@ -74,8 +74,7 @@ sp=40
 
 
 function mousePressed() {
- if(mouseX>0&&mouseX<40 && mouseY>0 && mouseY<40)
- g=-1
+
  
 }
 
@@ -123,6 +122,9 @@ po =5
 
   if (g == 1) //g1
   {
+ if(mouseX>0&&mouseX<40 && mouseY>0 && mouseY<40)
+ g=-1
+
     scale(2)
     background(255);
    
@@ -200,6 +202,9 @@ po =5
   } //G1//
   //G2
   if (g == 2) {
+if(mouseX>0&&mouseX<40 && mouseY>0 && mouseY<40)
+ g=-1
+
     stroke(2)
     textSize(24)
    //snd.loop();
