@@ -212,7 +212,7 @@ text("instructions",width-100,10)
 if(sco%600==0)
   snd.play()
   
-  if(mouseX>width-100&&mouseX<width,mouseY<20&&mouseY>0)
+  if(mouseX>width-100&&mouseX<width&&mouseY<20&&mouseY>0)
   { image(ins,0,0,width,height)
   }
   
