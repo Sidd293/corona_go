@@ -58,7 +58,7 @@ function setup() {
   f = 0
 }
 
-function mousePressed() {
+function mouseReleased() {
   if (mouseX > 0 && mouseX < 20)
     po = -1
   else if (mouseX > width / 2 && mouseX < width / 2 + 100)
@@ -66,19 +66,19 @@ function mousePressed() {
   else {
     po = 5
   }
-
+sp=40
 }
 
 
 
-function mouseReleased() {
+//function mouseReleased() {
 
-  sp = 30
-}
+//  sp = 30
+//}
 
 
 function draw() {
-  
+  snd.play()
   background(255);
    image(bg,0,0,width,height)
   
@@ -101,12 +101,13 @@ function draw() {
 
   if (g == -1) {
     if (po == 1) {
-
+snd.stop()
 lyf = 5
       g = 1
 sc = 0
     } else if (po == -1) {
       g = 2
+   snd.stop()
       lyf = width
 
 po =5
