@@ -120,7 +120,7 @@ po =5
 
   if (g == 1) //g1
   {
-    scale(4)
+    scale(2)
     background(255);
    
     for (var l = 0; l < lyf; l++)
