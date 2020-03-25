@@ -188,6 +188,7 @@ text("score " + sco, width-150, 30)
 
       r = bblx
       t = bbly
+      si = 255
       
       bbly = 0
       bblx = random(0, 300)
