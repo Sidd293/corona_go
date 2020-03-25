@@ -83,8 +83,8 @@ function draw() {
  
   background(255);
      image(bg,0,0,width,height)
-text("score " + sc, 150, 30)
-text("score " + sco, width-150, 30)
+
+  
 
   
   stroke(7)
@@ -121,6 +121,9 @@ po =5
       sco = 0
 
     }
+ text("score " + sc, 150, 30)
+text("score " + sco, width-150, 30)
+  
   }
 
   if (g == 1) //g1
