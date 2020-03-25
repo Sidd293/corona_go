@@ -61,7 +61,7 @@ snd.play()
 }
 
 function mouseReleased() {
-  if (mouseX > 0 && mouseX < 100)
+  if (mouseX > 0 && mouseX < 100 &&  mouseX>80 && mouseY>80  )
     po = -1
   else if (mouseX > width / 2 && mouseX < width / 2 + 100)
     po = 1
