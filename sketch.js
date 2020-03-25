@@ -120,11 +120,11 @@ po =5
 
   if (g == 1) //g1
   {
-    scale(1)
+    scale(2)
     background(255);
    
     for (var l = 0; l < lyf; l++)
-      image(hrt, l * 10, 20, 20, 20)
+      image(hrt, l * 50, 40, 20, 20)
     text("score is - " + sc, 150, 30)
 
     var tht = map(mouseY, 0, 360, 0, 450)
@@ -192,6 +192,7 @@ po =5
     image(cv, bblx, bbly, 50, 50)
     if (lyf == -1) {
     g =-1
+      scale(1)
     }
   } //G1//
   //G2
