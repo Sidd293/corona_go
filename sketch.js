@@ -135,6 +135,9 @@ text("score " + sco, width-150, 30)
 
     scale(2)
     background(255);
+    
+    image(bs,r-30,t-30,60,60)
+    //backgroundbackgr
    
     for (var l = 0; l < lyf; l++)
       image(hrt, l * 50, 40, 20, 20)
@@ -172,7 +175,7 @@ text("score " + sco, width-150, 30)
 
       r = bblx
       t = bbly
-      image(bs,r-30,t-30,60,60)
+      
       bbly = 0
       bblx = random(0, 300)
 
