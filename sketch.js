@@ -138,7 +138,7 @@ text("score " + sco, width-150, 30)
  if(mouseX>0&&mouseX<80 && mouseY>0 && mouseY<80)
  g=-1
 
-    //scale(2)
+    scale(2)
     background(255);
     
     image(bs,stx,sty,60,60)
